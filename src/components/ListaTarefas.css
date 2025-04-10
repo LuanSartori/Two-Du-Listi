@@ -1,0 +1,30 @@
+#lista{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    width: 80%;
+
+    margin: 50px 0;
+    padding: 25px 50px 50px 50px;
+
+    background-color: rgb(207, 207, 207);
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+#novaTarefa {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

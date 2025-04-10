@@ -1,0 +1,53 @@
+.cartao {
+    display: flex;
+    align-items: center;
+
+    padding: 20px 15px;
+
+    border-radius: 10px;
+    background-color: rgb(252, 171, 78);
+}
+
+.cartao:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.cartao button#alterar-botao {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    
+    border: 1px solid black;
+    border-radius: 50%;
+
+    background: none;
+
+    cursor: pointer;
+}
+
+.cartao button#remover-botao {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    
+    border: 1px solid black;
+    border-radius: 50%;
+
+    background: none;
+    text-align: center;
+    font-size: 10px;
+}
+
+.ativado button#alterar-botao {
+    background-color: green;
+    color: white;
+}
+
+.desativado:not(#remover-botao) {
+    text-decoration: line-through;
+}
+.desativado button#alterar-botao {
+    background-color: red;
+    color: white;
+}

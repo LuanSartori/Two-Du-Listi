@@ -1,12 +1,18 @@
-import './App.css'
-import ListaTarefas from './components/ListaTarefas'
+import './App.css';
+
+import ListaTarefas from './components/ListaTarefas';
+import NavbarSite from './components/NavbarSite';
 
 function App() {
   return (
     <>
+      <NavbarSite />
 
-      <h1>Gerenciador de Tarefas</h1>
-      <ListaTarefas />
+      <section id="mainContent">
+
+        <ListaTarefas />
+
+      </section>
 
     </>
   )
